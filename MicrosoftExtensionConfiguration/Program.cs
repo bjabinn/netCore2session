@@ -24,9 +24,9 @@ namespace MicrosoftExtensionConfiguration
             var result2 = configuration2.GetSection("Data:ConnectionString");
 
             //XML
-            var builder3 = ConfigurationBuilder.AddXmlFile("appsettings.xml");
+            var builder3 = new ConfigurationBuilder().AddXmlFile("appsettings.xml");
             var configuration3 = builder3.Build();
-            var result3 = configuration3.Get<string>("Data.Setting:DefaultConnection:Connection.String");
+            //var result3 = configuration3.Get<string>("Data.Setting:DefaultConnection:Connection.String");
 
 
         }
