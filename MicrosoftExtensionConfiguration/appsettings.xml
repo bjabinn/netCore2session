@@ -1,0 +1,8 @@
+﻿<settings>
+  <Data.Setting>
+    <DefaultConnection>
+      <Connection.String>Test.Connection.String</Connection.String>
+      <Provider>SqlClient</Provider>
+    </DefaultConnection>
+  </Data.Setting>
+</settings>

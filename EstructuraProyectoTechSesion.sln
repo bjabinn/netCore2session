@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InMemory", "InMemory", "{F6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutenticationAuthorization", "AutenticationAuthorization\AutenticationAuthorization.csproj", "{DF781FDE-BE04-4002-8A53-1E9FC7E9C3E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftExtensionConfiguration", "MicrosoftExtensionConfiguration\MicrosoftExtensionConfiguration.csproj", "{43A0EA37-0369-411C-8BE9-080D98B0B4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggers", "Loggers\Loggers.csproj", "{0117F572-02E2-4E19-8C0D-E176D6F6EDA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,14 @@ Global
 		{DF781FDE-BE04-4002-8A53-1E9FC7E9C3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF781FDE-BE04-4002-8A53-1E9FC7E9C3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF781FDE-BE04-4002-8A53-1E9FC7E9C3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A0EA37-0369-411C-8BE9-080D98B0B4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A0EA37-0369-411C-8BE9-080D98B0B4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A0EA37-0369-411C-8BE9-080D98B0B4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A0EA37-0369-411C-8BE9-080D98B0B4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0117F572-02E2-4E19-8C0D-E176D6F6EDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0117F572-02E2-4E19-8C0D-E176D6F6EDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0117F572-02E2-4E19-8C0D-E176D6F6EDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0117F572-02E2-4E19-8C0D-E176D6F6EDA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
